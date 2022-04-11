@@ -9,6 +9,7 @@ export const data = {
             price: 450,
             vendor: 'Maria Palitos',
             vPhone: '+ 591-71231234', 
+            slug: 'audifonos-amarillos',
         },
         {
             id: 2,
@@ -17,7 +18,9 @@ export const data = {
             category: 'Alimentos',
             price: 20,
             vendor: 'Pepito Palotes',
-            vPhone: '+591-71231235', 
+            vPhone: '+591-71231235',
+            slug: 'mermelada-pina', 
+            
         },
         {
             id: 3,
@@ -26,7 +29,8 @@ export const data = {
             category: 'Ropa',
             price: 300,
             vendor: 'Jose Rios',
-            vPhone: '+591-71231236', 
+            vPhone: '+591-71231236',
+            slug: 'zapatos-nike', 
         },
         {
             id: 4,
@@ -35,7 +39,8 @@ export const data = {
             category: 'Cuidado Personal',
             price: 150,
             vendor: 'Eduardo Flores',
-            vPhone: '+591-71231237', 
+            vPhone: '+591-71231237',
+            slug: 'aceite-de-argan', 
         },
         {
             id: 5,
@@ -44,7 +49,8 @@ export const data = {
             category: 'Electronicos, Accesorios',
             price: 1200,
             vendor: 'Victor Herrera',
-            vPhone: '+591-71231238', 
+            vPhone: '+591-71231238',
+            slug: 'reloj-inteligente', 
         },
         {
             id: 6,
@@ -53,7 +59,8 @@ export const data = {
             category: 'Cuidado Personal',
             price: 12.5,
             vendor: 'Marcela Mercedes',
-            vPhone: '+591-71231239', 
+            vPhone: '+591-71231239',
+            slug: 'crema-nivea', 
         },
     ],
 }
