@@ -25,6 +25,10 @@ a {
     color: #ce8820;
 }
 
+.img-sm {
+    max-width: 60px;
+    max-height: 60px;
+}
 
 .img-med {
     width: 100%;
@@ -33,7 +37,7 @@ a {
 }
 
 .img-lg {
-    height: 100%;
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -73,7 +77,6 @@ a {
     background-color: #e2a115;
     color: #fff;
     border: none;
-    width: 100%;
 }
 
 .btn-primary:hover, .btn-outline-primary:hover {
@@ -115,7 +118,30 @@ footer {
     color: #fff;
 }
 
+.pdct-scrn {
+    margin: 4px;
+    margin-top: 20px;
+}
+
+.pdct-scrn-card{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    right: 10px;
+    width: 240px;
+}
+
 .bigPrice {
     color: #a60000;
     font-size: 24px;
+    padding-left: 3vmax;
+}
+
+.pdct-scrn-bdy {
+    padding-left: 3vmax;
+}
+
+.qty-dd {
+    overflow-y: scroll;
+    height: 50vh;
 }

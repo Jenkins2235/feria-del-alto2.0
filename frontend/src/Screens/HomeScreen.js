@@ -58,14 +58,16 @@ const HomeScreen = () => {
                     ) : (
                     prepDisplayList.map((product) => {
                         return (
-                        <Carousel.Item key={product.id} className='grid'>
+                        <Carousel.Item key={product._id} className='grid'>
                             <img className='carousel' variant='dark' src={product.image} alt={product.name} />
                             <Carousel.Caption>
                                 <h2>{product.name}</h2>
                                 <h4>{product.price}</h4>
-                                <Button className='btn' variant="primary">
-                                    <Link className='carouselLink' to={`/product/${product.slug}`}>Me Interesa</Link>
-                                </Button>
+                                <Link className='carouselLink' to={`/product/${product.slug}`}>
+                                    <Button className='btn' variant="primary">
+                                        Me Interesa
+                                    </Button>
+                                </Link>
                             </Carousel.Caption>
                         </Carousel.Item>
                     )}))}
@@ -84,7 +86,7 @@ const HomeScreen = () => {
                     ) : (
                     prepDisplayList2.map((product) => {
                         return (
-                        <Card key={product.id} className='product'>
+                        <Card key={product._id} className='product'>
                             <Link className='carouselLink' to={`/product/${product.slug}`}>
                                 <Card.Img variant='top' src={product.image} alt={product.name} />
                             </Link>
@@ -110,7 +112,7 @@ const HomeScreen = () => {
                     ) : (
                     prepDisplayList.map((product) => {
                         return (
-                        <Card key={product.id} className='product'>
+                        <Card key={product._id} className='product'>
                             <Card.Img variant='top' src={product.image} alt={product.name} />
                             <Card.Body>
                                 <Card.Title>{product.name}</Card.Title>
@@ -134,7 +136,7 @@ const HomeScreen = () => {
                     ) : (
                     prepDisplayList.map((product) => {
                     return (
-                    <Card key={product.id} className='product'>
+                    <Card key={product._id} className='product'>
                         <Card.Img variant='top' src={product.image} alt={product.name} />
                         <Card.Body>
                             <Card.Title>{product.name}</Card.Title>
@@ -161,14 +163,14 @@ const HomeScreen = () => {
                     ) : (
                         prepDisplayList.map((product) => {
                     return (
-                    <Card key={product.id} className='product'>
+                    <Card key={product._id} className='product'>
                         <Card.Img variant='top' src={product.image} alt={product.name} />
                         <Card.Body>
                             <Card.Title>{product.name}</Card.Title>
                             <ListGroup variant='flush'>
                                 <ListGroupItem>Bs. {product.price}</ListGroupItem>
                             </ListGroup>
-                            <Button className='btn' variant="primary">Me Interesa</Button>
+                            <Button className='pdct-btn' variant="primary">Me Interesa</Button>
                         </Card.Body>
                     </Card>
                 )}))}
@@ -185,7 +187,7 @@ const HomeScreen = () => {
                     ) : (
                         prepDisplayList.map((product) => {
                     return (
-                    <Card key={product.id} className='product'>
+                    <Card key={product._id} className='product'>
                         <Card.Img variant='top' src={product.image} alt={product.name} />
                         <Card.Body>
                             <Card.Title>{product.name}</Card.Title>

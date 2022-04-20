@@ -2,9 +2,9 @@ export const data = {
     products: [
         {
             
-            id: 1,
+            _id: '1',
             image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-            name: 'Audifonos Amarillos',
+            name: 'Audifonos Amarillos Panasinic Boom  Boom 2020 201340X',
             category: 'Electronicos',
             price: 450,
             vendor: 'Maria Palitos',
@@ -12,7 +12,7 @@ export const data = {
             slug: 'audifonos-amarillos',
         },
         {
-            id: 2,
+            _id: '2',
             image: 'https://images.unsplash.com/photo-1525904097878-94fb15835963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
             name: 'Mermelada de Piña',
             category: 'Alimentos',
@@ -23,7 +23,7 @@ export const data = {
             
         },
         {
-            id: 3,
+            _id: '3',
             image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
             name: 'Zapatos Nike',
             category: 'Ropa',
@@ -33,7 +33,7 @@ export const data = {
             slug: 'zapatos-nike', 
         },
         {
-            id: 4,
+            _id: '4',
             image: 'https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
             name: 'Aceite de Argan',
             category: 'Cuidado Personal',
@@ -43,7 +43,7 @@ export const data = {
             slug: 'aceite-de-argan', 
         },
         {
-            id: 5,
+            _id: '5',
             image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZHVjdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
             name: 'Reloj Inteligente',
             category: 'Electronicos, Accesorios',
@@ -53,7 +53,7 @@ export const data = {
             slug: 'reloj-inteligente', 
         },
         {
-            id: 6,
+            _id: '6',
             image: 'https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
             name: 'Crema Nivea',
             category: 'Cuidado Personal',
